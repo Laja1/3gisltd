@@ -33,7 +33,7 @@ export default function Service() {
           <div className="flex-wrap mx-auto  justify-center gap-5 md:gap-10 lg:gap-10   flex">
               {serviceData.map((item) =>
                   <div className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
-                      <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg" />
+                      <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg h-[40vh]" />
                       <div className="px-5  flex flex-col">
                           <div className="flex-row flex justify-between">
                               <p className="font-bold ralewayy pt-3 text-center">{item.title}</p></div>

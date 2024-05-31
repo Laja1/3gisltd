@@ -53,22 +53,22 @@ export default function About() {
           
             <div className='lg:flex-row lg:w-full  flex-col  gap-5 pt-5 items-center flex justify-center'>
            <div className='items-center flex flex-col'> 
-           <img src='pictures/profile.jpg' className='w-[250px]  h-[350px] rounded-md'/>
+           <img src='pictures/profile.jpg' alt='Managing Director' className='w-[250px]  h-[350px] rounded-md'/>
            <p className='text-sm font-bold text-center ralewayy'>Adekunle Adebayo, ACA Managing Director</p>
            <p className='text-sm raleway'>Accounts and Finance</p>
            </div>
             <div className='items-center flex flex-col'> 
-            <img src='pictures/profile.jpg' className='w-[250px]  h-[350px] rounded-md'/>
+            <img src='pictures/adeyemi.jpg' alt='Technical Director' className='w-[250px]  h-[350px] rounded-md'/>
            <p className='text-sm font-bold text-center ralewayy'>Adeyemi Adebiyi, MSc, PMP, CSM, ITIL Technical Director</p>
            <p className='text-sm raleway'>Technical and Presales</p>
            </div>
             <div className='items-center flex flex-col'> 
-            <img src='pictures/profile.jpg' className='w-[250px]  h-[350px] rounded-md'/>
-           <p className='text-sm font-bold text-center ralewayy'>Temidayo Adekanye, PGCE, MSc External Consultant</p>
+            <img src='pictures/temidayo.jpg' alt='External Consultant' className='w-[250px]  h-[350px] rounded-md'/>
+           <p className='text-sm font-bold  text-center ralewayy' >Temidayo Adekanye, PGCE, MSc External Consultant</p>
            <p className='text-sm raleway'>Business Process Re-engineering and Strategy</p>
            </div>
             <div className='items-center flex flex-col'> 
-            <img src='pictures/profile.jpg' className='w-[250px]  h-[350px] rounded-md'/>
+            <img src='pictures/adeyemi.jpg' alt='Senior Consultant' className='w-[250px]  h-[350px] rounded-md'/>
            <p className='text-sm font-bold ralewayy'>Jubril IdrisMBA Senior Consultant</p>
            <p className='text-sm raleway'>Consulting and Operations</p>
            </div></div>

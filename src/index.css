@@ -2,6 +2,13 @@
   @tailwind components;
   @tailwind utilities;
 
+  .noto-sans-kr {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
   @layer base {
     :root {
       --background: 0 0% 100%;
