@@ -21,9 +21,9 @@ const Layout = () => {
             <div className="hidden md:flex space-x-4">
               <Link to='/'><p className="text-black hover:text-gray-600">Home</p></Link>
               <Link to='/Services'><p className="text-black hover:text-gray-600">Services</p></Link>
-              <Link to='/About'> <p className="text-black hover:text-gray-600">About Us</p></Link>
-              <Link to='/Projects'> <p className="text-black hover:text-gray-600">Projects</p></Link>
-              <Link to='/Projects'>  <p className="text-black hover:text-gray-600">Partners</p></Link>
+              <Link to='/About'><p className="text-black hover:text-gray-600">About Us</p></Link>
+              <Link to='/Projects'><p className="text-black hover:text-gray-600">Projects</p></Link>
+              <Link to='/Partners'><p className="text-black hover:text-gray-600">Partners</p></Link>
             </div>
             <div className="md:hidden">
               <button onClick={() => setIsOpen(!isOpen)} className="text-black focus:outline-none">
@@ -41,12 +41,11 @@ const Layout = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
               </svg>
             </button>
-            <p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Home</p>
-            <Link to='/Services'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Services</p></Link> 
-            <p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Projects</p>
-            <p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Partners</p>
-            <Link to='/About'> <p className="text-black hover:text-gray-600">About Us</p></Link>
-          
+            <Link to='/'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Home</p></Link>
+            <Link to='/Services'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Services</p></Link>
+            <Link to='/About'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">About Us</p></Link>
+            <Link to='/Projects'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Projects</p></Link>
+            <Link to='/Partners'><p onClick={handleLinkClick} className="block px-4 py-2 text-black hover:bg-gray-200">Partners</p></Link>
           </div>
         </div>
       </nav>

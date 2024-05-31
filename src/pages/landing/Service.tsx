@@ -26,14 +26,14 @@
     
 export default function Service() {
   return (
-    <div className="bg-[#f9f9f9] py-10 flex flex-col items-center justify-center min-h-screen w-full">
+    <div className="bg-[#fff] py-10 flex flex-col items-center justify-center min-h-screen w-full">
     <div>
       <h1 className="ralewayy pb-5 text-xl text-black md:text-2xl lg:text-3xl font-bold">Our Services</h1>
           </div>
-          <div className="flex-wrap mx-auto  justify-center gap-5 md:gap-10 lg:gap-20   flex">
+          <div className="flex-wrap mx-auto  justify-center gap-5 md:gap-10 lg:gap-10   flex">
               {serviceData.map((item) =>
-                  <div className="w-[330px]      border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
-                      <img src={item.imageUrl} alt={item.imageAlt} className="" />
+                  <div className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
+                      <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg" />
                       <div className="px-5  flex flex-col">
                           <div className="flex-row flex justify-between">
                               <p className="font-bold ralewayy pt-3 text-center">{item.title}</p></div>
