@@ -9,6 +9,41 @@
     font-style: normal;
   }
 
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+     .open-sans {
+       font-family: "Open Sans", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: 400;
+       font-style: normal;
+       font-variation-settings:
+         "wdth" 100;
+     }
+            .open-sanss {
+              font-family: "Open Sans", sans-serif;
+              font-optical-sizing: auto;
+              font-weight: 700;
+              font-style: normal;
+              font-variation-settings:
+                "wdth" 100;
+            }
+    .raleway {
+      font-family: "Raleway", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+    }
+                .ralewayy {
+                  font-family: "Raleway", sans-serif;
+                  font-optical-sizing: auto;
+                  font-weight: 800;
+                  font-style: normal;
+                }
+
   @layer base {
     :root {
       --background: 0 0% 100%;

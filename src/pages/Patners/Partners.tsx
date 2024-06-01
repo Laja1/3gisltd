@@ -1,3 +1,5 @@
+import { Helmet } from "react-helmet-async";
+
 const patnersData = [{
   'imageUrl':'icons/napbs.jpg',
   'alt':'Napbs Logo',
@@ -42,8 +44,13 @@ const patnersData = [{
 export default function Partners() {
   return (
     <div>
+       <Helmet>
+    <title>Our Patners</title>
+    <meta name='Our Patners' content="Our Patners" />
+    <link rel='canonical' href="/Patners" />
+</Helmet>  
       <div className="items-center py-10 mx-auto flex-col flex justify-center">
-        <h1 className="ralewayy py-2 text-xl text-black md:text-2xl lg:text-3xl font-bold">
+        <h1 className="playfair-display py-2 text-xl text-black md:text-2xl lg:text-3xl font-bold">
           Our Partners
         </h1>
         <div className="w-14 h-1 rounded-full bg-[#BCDBFF]" />
@@ -52,8 +59,8 @@ export default function Partners() {
       {patnersData.map((item, index) => (
   <div
     key={index}
-    className={`lg:flex flex-col gap-10 space-y-3 items-center justify-center ${
-      index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'
+    className={`lg:flex flex-col gap-10 space-y-[10px] lg:space-y-[100px] items-center justify-center ${
+      index % 2 === 0 ? 'lg:flex-row items-center flex' : 'items-center flex lg:flex-row-reverse'
     }`}
   >
     <img
@@ -62,7 +69,7 @@ export default function Partners() {
       className="w-[250px] h-[100px]"
     />
     <div className="w-full max-w-2xl">
-         <p className="text-sm raleway">{item.text}</p>
+         <p className="text-sm open-sans leading-loose">{item.text}</p>
     </div>
   </div>
 ))}
