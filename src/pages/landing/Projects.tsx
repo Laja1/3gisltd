@@ -46,8 +46,10 @@ export default function Projects() {
       {serviceData.map((item, index) => (
         <motion.div
           key={index}
-          initial={{ scale: 1 }}
+          initial={{ opacity: 0, y: 50, scale: 1 }}
           whileHover={{ scale: 1.1 }}
+          whileInView={{ opacity: 1, y: 0}}
+          transition={{duration:2, ease:"easeIn"}}
           style={{ backgroundColor: item.cardColor }}
           className="items-center justify-center flex w-[300px] lg:w-[400px]  md:w-[330px] h-[335px] py-10 px-5"
         >

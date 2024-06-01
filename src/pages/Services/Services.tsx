@@ -51,7 +51,7 @@ import { Helmet } from 'react-helmet-async'
   
 export default function Services() {
   return (
-    <div className=" flex flex-col items-center justify-center p-10">
+    <div className=" flex flex-col items-center justify-center mx-auto py-10">
          <Helmet>
     <title>Services</title>
     <meta name='Services' content="Our Services" />
@@ -59,7 +59,7 @@ export default function Services() {
 </Helmet>  
           <h1 className="playfair-display py-2 text-xl text-black md:text-2xl lg:text-3xl font-bold">Our Services</h1>
           <div className="w-14  h-1  rounded-full bg-[#BCDBFF]"/>
-          <div className="flex-wrap mx-auto pt-5 justify-center gap-5 md:gap-10 lg:gap-10   flex">
+          <div className="flex-wrap  mx-auto pt-5 justify-center gap-5 md:gap-10 lg:gap-10   flex">
               {serviceData.map((item) =>
                  <motion.div initial={{ y: 0 }} whileHover={{ y: [-10, 10, -10] }}  className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
                       <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg h-[40vh]" />

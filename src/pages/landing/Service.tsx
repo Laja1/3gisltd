@@ -1,4 +1,4 @@
-
+import {motion} from 'framer-motion'
     const serviceData = [
       {
         title: 'Project Management Consulting',
@@ -33,7 +33,10 @@ export default function Service() {
           </div>
           <div className="flex-wrap mx-auto  justify-center gap-5 md:gap-10 lg:gap-10   flex">
               {serviceData.map((item) =>
-                  <div className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
+                      <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 2, ease: 'easeIn' }} className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
                       <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg h-[40vh]" />
                       <div className="px-5  flex flex-col">
                         
@@ -41,7 +44,7 @@ export default function Service() {
                           <p className="text-[13px] open-sans leading-loose text-[#56627b] py-3">{item.description}</p>
                           
                       </div>
-                  </div>
+                  </motion.div>
  ) }
           </div>
     </div>

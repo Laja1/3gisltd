@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-white flex flex-col md:flex-col space-y-5 lg:flex-row items-center justify-between px-10 md:px-15 lg:px-20 py-20 w-full border-t border-gray-200">
       <div className="flex flex-col gap-10 items-start lg:items-start md:items-center   mb-6 md:mb-0">
-       <div><p className=" md:text-center  lg:text-start text-xl font-bold playfair-display mb-4">3G Integrated System Ltd</p>
+       <div className="space-y-4 ">  <img src='icons/logo.png' className='w-36'/>
         <div className="flex space-x-4">
           <a href="#" aria-label="Instagram">
             <FaInstagram size={15} className="text-black hover:text-gray-700" />
