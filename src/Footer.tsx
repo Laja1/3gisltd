@@ -1,38 +1,46 @@
-import { FaXTwitter, FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import { FaTwitter, FaInstagram, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-white flex flex-col md:flex-col space-y-5 lg:flex-row items-center justify-between px-10 md:px-15 lg:px-20 py-20 w-full border-t border-gray-200">
-      <div className="flex flex-col gap-10 items-start lg:items-start md:items-center   mb-6 md:mb-0">
-       <div className="space-y-4 ">  <img src='icons/logo.png' className='w-36'/>
-        <div className="flex space-x-4">
-          <a href="#" aria-label="Instagram">
-            <FaInstagram size={15} className="text-black hover:text-gray-700" />
-          </a>
-          <a href="#" aria-label="Twitter">
-            <FaXTwitter size={15} className="text-black hover:text-gray-700" />
-          </a>
-          <a href="#" aria-label="LinkedIn">
-            <FaLinkedinIn size={15} className="text-black hover:text-gray-700" />
-          </a>
-          <a href="#" aria-label="Facebook">
-            <FaFacebookF size={13} className="text-black hover:text-gray-700" />
-          </a>
-        </div></div>
-        <div className="flex flex-col lg:items-start items-start md:items-center">
-        <h3 className=" playfair-display text-lg font-bold">Our Offices</h3>
-        <p className="text-sm open-sans py-1">US Office: 10, Hillcrest Avenue, West Orange, NJ. 07052.</p>
-        <p className="text-sm open-sans py-1">Nigeria Office: 40b, Commercial Avenue, Yaba, Lagos.</p>
+    <footer className="bg-white text-black py-12">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div>
+            <img src="icons/logo.png" className="w-36 mb-4" alt="Logo" />
+            <div className="flex space-x-4 mb-4">
+              <a href="#" aria-label="Instagram" className=" hover:">
+                <FaInstagram size={20} />
+              </a>
+              <a href="#" aria-label="Twitter" className=" hover:">
+                <FaTwitter size={20} />
+              </a>
+              <a href="#" aria-label="LinkedIn" className=" hover:">
+                <FaLinkedinIn size={20} />
+              </a>
+              <a href="#" aria-label="Facebook" className=" hover:">
+                <FaFacebookF size={20} />
+              </a>
+            </div>
+          </div>
+          <div>
+            <h3 className="text-lg font-semibold open-sans mb-4">Our Offices</h3>
+            <p className="text-black open-sans mb-2">US Office: 10, Hillcrest Avenue, West Orange, NJ. 07052.</p>
+            <p className="text-black open-sans mb-2">Nigeria Office: 40b, Commercial Avenue, Yaba, Lagos.</p>
+          </div>
+          <div className="">
+            <h3 className="text-lg open-sans font-semibold mb-4">Quick Links</h3>
+            <nav className="flex flex-col space-y-2">
+              <a href="#" className="text-black open-sans hover:text-black">About Us</a>
+              <a href="#" className="text-black open-sans hover:text-black">Partners</a>
+              <a href="#" className="text-black open-sans hover:text-black">Contact Us</a>
+            </nav>
+          </div>
+          
+        </div>
+        <div className="mt-8 pt-4 border-t border-gray-700 text-center text-black">
+          <p className="open-sans">&copy; 2023 Company Name. All rights reserved.</p>
+        </div>
       </div>
-      </div>
-      
-      <nav className="flex space-x-6  items-center justify-center text-black text-sm mb-6 md:mb-0">
-        <a href="#" className="open-sans hover:underline">About Us</a>
-        <a href="#" className="open-sans hover:underline">Partners</a>
-        <div className='bg-black p-3'><a href="#" className="text-white hover:underline open-sans">Contact Us</a></div>
-      </nav> 
-
-      
     </footer>
   );
 }

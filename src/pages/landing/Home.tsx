@@ -1,10 +1,11 @@
-import About from "./About";
-import Partners from "./Patners";
-import Projects from "./Projects";
-import Service from './Service';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Helmet } from 'react-helmet-async';
+import { lazy, Suspense } from 'react';
+const About = lazy(() => import('./About'));
+const Partners = lazy(() => import('./Patners'));
+const Projects = lazy(() => import('./Projects'));
+const Service = lazy(() => import('./Service'));
 
 export default function Home() {
   return (
@@ -16,7 +17,7 @@ export default function Home() {
       </Helmet>
 
       <div className="w-full">
-        <Carousel autoPlay={true} infiniteLoop={true} showStatus={false}  dynamicHeight={true} showThumbs={false} transitionTime={1000} showArrows={false} swipeable={false}>
+        <Carousel autoPlay={true} infiniteLoop={true} showStatus={false} dynamicHeight={true} showThumbs={false} transitionTime={1000} showArrows={false} swipeable={false}>
           <div className="relative lg:h-full md:h-[85vh] h-[75vh] w-full">
             <img src="pictures/3gis.png" className="w-full h-full object-cover" alt="Home" />
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
@@ -67,10 +68,22 @@ export default function Home() {
         </Carousel>
       </div>
 
-      <Service />
-      <Projects />
-      <div className="w-full mt-10 lg:mt-[-200px]"><About /></div>
-      <div className="py-10 lg:py-0"><Partners /></div>
+      <Suspense fallback={<div>Loading Services...</div>}>
+        <Service />
+      </Suspense>
+      <Suspense fallback={<div>Loading Projects...</div>}>
+        <Projects />
+      </Suspense>
+      <Suspense fallback={<div>Loading About...</div>}>
+        <div className="w-full mt-10 lg:mt-[-200px]">
+          <About />
+        </div>
+      </Suspense>
+      <Suspense fallback={<div>Loading Partners...</div>}>
+        <div className="py-10 lg:py-0">
+          <Partners />
+        </div>
+      </Suspense>
 
       <section className="grid bg-gray-100 h-[80vh] md:h-[30vh] lg:h-[40vh] grid-rows-2 md:grid-cols-2 lg:grid-cols-2 items-center justify-center md:pt-24 lg:pt-20">
         <header className="flex px-10 lg:px-32 flex-col gap-2">
@@ -88,3 +101,4 @@ export default function Home() {
     </div>
   );
 }
+

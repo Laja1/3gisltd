@@ -5,6 +5,7 @@ import Home from "./pages/landing/Home";
 import Services from "./pages/Services/Services";
 import About from "./pages/About/About";
 import Partners from "./pages/Patners/Partners";
+import Projects from "./pages/Projects/Projects";
 
 export default function App() {
 
@@ -17,6 +18,7 @@ export default function App() {
           <Route path="/Services" element={<Services />} />
           <Route path="/About" element={<About />} />
              <Route path="/Partners" element={<Partners />} />
+              <Route path="/Projects" element={<Projects />} />
         </Route>
       </Routes>
     </BrowserRouter>

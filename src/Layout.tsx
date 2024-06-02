@@ -1,9 +1,8 @@
 // src/Layout.jsx
 import { useState,useEffect } from 'react';
 import { Link, Outlet } from 'react-router-dom';
-import {motion} from 'framer-motion'
 import Footer from './Footer';
-import ClipLoader from "react-spinners/ClipLoader";
+import FadeLoader from "react-spinners/FadeLoader";
 const Layout = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false)
@@ -20,33 +19,15 @@ const Layout = () => {
   },[])
   return (<div>
     {loading ? <div className="flex items-center justify-center h-screen bg-[#000]">
-  <div className="flex flex-col items-center justify-center">
-    <ClipLoader
+
+    <FadeLoader
       color={"#fff"}
-      size={80}
+      // size={80}
       loading={loading}
       aria-label="Loading Spinner"
       data-testid="loader"
     />
-    <div className="mt-8 text-center">
-      <motion.h1
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 8, ease: "easeInOut" }}
-        className="text-4xl playfair-display font-bold text-white"
-      >
-        Welcome To
-      </motion.h1>
-      <motion.h1
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 8, delay: 0.5, ease: "easeInOut" }}
-        className="text-6xl playfair-display font-bold text-white"
-      >
-        3GIS
-      </motion.h1>
-    </div>
-  </div>
+   
 </div>:
     <div className="flex flex-col min-h-screen">
       <nav className="bg-white drop-shadow fixed w-full z-10">

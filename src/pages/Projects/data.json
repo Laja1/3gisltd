@@ -1,0 +1,129 @@
+[
+  {
+    "title": "Trustpay Technologies",
+    "details": [
+      {
+        "name": "AtaraPay",
+        "website": "www.atarapay.com",
+        "description": "AtaraPay is a mobile app developed to guarantee online fraud prevention during eCommerce transactions by acting as a holding account and a trusted third party between the buyer and the seller. The buyer pays into the holding account and the seller is only credited if the buyer confirms that the goods or service is in good condition. It is also designed to protect transactions for third party or brokered transactions such as marketplace transactions that involve the buyer, seller and a service provider.",
+        "features": [
+          "Multiple Payment Options (PayPal, Paystack, Monnify)",
+          "Local and Cross border Transactions (Supports USD and NGN Currencies)",
+          "Supports eCommerce of Goods including Services",
+          "Stress-Free Delivery of Goods",
+          "Dispute Resolution Portal",
+          "APIs and Plugins for Seamless Integration"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "MTN",
+    "details": [
+      {
+        "name": "MTN BizApp",
+        "website": "GooglePlay Store",
+        "description": "MTN BizApp is a mobile app developed specifically to cater for Small and Medium Businesses (SMB) subscribed to the MTN network across all its Operating Companies in Africa and the Middle East. It is designed to help SMBs leverage Social Media as an online growth strategy.",
+        "features": [
+          "Facebook, Instagram and Google Business social media dashboards",
+          "Messaging services including Bulk SMS",
+          "Business Directory of registered businesses",
+          "Instant Messaging amongst registered businesses",
+          "Customer Service",
+          "Robust Reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Stanbic Bank",
+    "details": [
+      {
+        "name": "Online Inverter Monitoring Solution",
+        "description": "The bank's maintenance department was challenged with the ability to monitor availability of its ATMs located at remote sites. When there is a power outage, the ATM's backup power kicks in but goes off after a while. This costs the bank millions in service downtime, battery refresh, hardware fixes, and application uptime. Our online inverter monitoring solution (IMS) provided the maintenance department a cloud service that enables Stanbic to monitor the ATMs availability online from the comfort of their office.",
+        "features": [
+          "View list of all sites installed from the IMS cloud portal",
+          "Ability to configure and update the IoT logger remotely from the IMS cloud portal",
+          "View online voltage and state of charge per battery at every point in time",
+          "Historical report of battery and inverter performance",
+          "Graphic display of battery string graph and charge/ discharge current",
+          "Online chart reporting of real-time battery and inverter status",
+          "Alarm threshold notifications sent via email or SMS, when the frequency and voltage is not suitable for proactive monitoring",
+          "Ability to set customized threshold of key battery performance indicator",
+          "Centralized dashboard monitoring of inverter irrespective of inverter model or type or brand",
+          "Keep alarm logs"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Leadway Pensions",
+    "details": [
+      {
+        "name": "Cloud Hotspot Service at National Youth Service Corp (NYSC) Camps",
+        "description": "This is an ongoing marketing innovation started by Leadway in the country. The project provides free Wi-Fi internet access to NYSC candidates at the camps during their 3 weeks orientation into the service. This solution advertises Leadway and its services on the hotspot and captures data of the corpers for follow up after the exercise.",
+        "features": [
+          "Online and real-time reporting of user access and registrations",
+          "Supported up to 500 concurrent users within the major campuses",
+          "Provided online monitoring of the hotspot routers proactively informing of downtimes and delivering resolutions in real-time",
+          "Provided in-app advertising",
+          "Authentication of emails and form validation of NYSC call-up numbers",
+          "Deployment of Mikrotik Cloud Core Hotspot routers at the core",
+          "Deployment of Mikrotik and Ubiquity indoor and outdoor Access Points for full coverage across key locations on campus",
+          "Deployed power cabling and inverter systems powered by solar and diesel generators",
+          "Implemented structured cabling including fiber and copper cable campus wide",
+          "24/7 support"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Masque Technologies",
+    "details": [
+      {
+        "name": "Masque",
+        "website": "www.masque.com.ng",
+        "description": "This is an arts and craft online marketplace designed to bridge the gap between lovers of art and artists. It provides artists an account management portal which allows them to upload their artworks and sell them via the Masque marketplace. The service also includes image manipulation for framing and printing.",
+        "features": [
+          "eCommerce marketplace supporting Interswitch and PayPal",
+          "Shipment tracking via Email and SMS",
+          "Buyer, Merchant and Admin portals",
+          "Responsive 360 degrees image viewing of 3-D arts and crafts",
+          "Robust Reporting"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Sailbond Shipping Ltd",
+    "details": [
+      {
+        "name": "Sailbond Shipping",
+        "website": "www.sailbondshipping.com",
+        "description": "This is a website developed for Sailbond Shipping Limited in the logistics and courier sector. The website was developed to allow the company have a web presence and also to enable her customers to track their shipment online from their website.",
+        "features": [
+          "Brochure of its products and services",
+          "Online Shipment tracking",
+          "Integration to social network sites"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "MTN",
+    "details": [
+      {
+        "name": "MTN Bulk SMS",
+        "description": "MTN Bulk SMS is a web-based portal dedicated to providing businesses the ability to market their goods and services using SMS. The web portal is developed specifically to cater for Small and Medium Businesses subscribed to the MTN network across all its Operating Companies in Africa and the Middle East.",
+        "features": [
+          "Account Management",
+          "Messaging Management",
+          "Sub Account Management",
+          "2 Way SMS Service using short code",
+          "Reseller Panel",
+          "Robust Reporting"
+        ]
+      }
+    ]
+  }
+]

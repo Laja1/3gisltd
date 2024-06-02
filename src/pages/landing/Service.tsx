@@ -36,8 +36,8 @@ export default function Service() {
                       <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 2, ease: 'easeIn' }} className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
-                      <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg h-[40vh]" />
+          transition={{ duration: 1, ease: 'easeIn' }} className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
+                      <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg " />
                       <div className="px-5  flex flex-col">
                         
                               <p className="font-bold open-sanss pt-3 text-center">{item.title}</p>
