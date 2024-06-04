@@ -2,6 +2,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from 'react-responsive-carousel';
 import { Helmet } from 'react-helmet-async';
 import { lazy, Suspense } from 'react';
+import { Link } from "react-router-dom";
 const About = lazy(() => import('./About'));
 const Partners = lazy(() => import('./Patners'));
 const Projects = lazy(() => import('./Projects'));
@@ -27,9 +28,9 @@ export default function Home() {
                 With years of experience in business and Finance, we identify industry challenges and meet business needs through proactive delivery of solutions backed with Technology that enable growth and development for the organization.
               </p>
               <div className="pt-5 flex justify-center">
-                <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
+                <Link to='/Contact'>  <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
                   Get in touch
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>
@@ -43,9 +44,9 @@ export default function Home() {
                 3GIS adopts a systematic project management approach to ensure the delivery of project benefits and objectives. This strategy involves aligning with established project management principles to guarantee success.
               </p>
               <div className="pt-5 flex justify-center">
-                <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
+               <Link to='/Contact'> <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
                   Get in touch
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>
@@ -59,9 +60,9 @@ export default function Home() {
                 3GIS offers a solution by integrating business process re-engineering and customized software development to enhance workforce efficiency and streamline operations through automation.
               </p>
               <div className="pt-5 flex justify-center">
-                <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
+               <Link to='/Contact'>   <div className="w-72 h-12 text-white flex rounded-md bg-blue-700 items-center justify-center cursor-pointer">
                   Get in touch
-                </div>
+                </div></Link>
               </div>
             </div>
           </div>
