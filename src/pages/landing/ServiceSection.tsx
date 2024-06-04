@@ -16,6 +16,7 @@ const ServiceSection = ({ title, description, imageUrl, imageAlt, reversed }:Ser
         <h2 className="ralewayy text-xl md:text-2xl lg:text-3xl font-bold">{title}</h2>
         <p className="raleway text-lg">{description}</p>
       </div>
+     
     </div>
   );
 };

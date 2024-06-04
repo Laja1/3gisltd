@@ -26,9 +26,9 @@ import {motion} from 'framer-motion'
     
 export default function Service() {
   return (
-    <div className="bg-[#fff] py-5 flex flex-col items-center justify-center min-h-screen w-full">
-    <div className="py-5 items-center flex flex-col">
-       <h1 className="playfair-display py-2 text-xl text-black md:text-2xl lg:text-3xl font-bold">Our Services</h1>
+    <div className="bg-[#fff] py-5 flex flex-col  items-center justify-center min-h-screen w-full">
+    <div className="py-5 items-center justify-center flex flex-col">
+       <h1 className="playfair-display  py-2 text-xl text-black md:text-2xl lg:text-3xl font-bold">Our Services</h1>
           <div className="w-14  h-1  rounded-full bg-[#BCDBFF]"/>
           </div>
           <div className="flex-wrap mx-auto  justify-center gap-5 md:gap-10 lg:gap-10   flex">
@@ -36,12 +36,12 @@ export default function Service() {
                       <motion.div
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1, ease: 'easeIn' }} className="lg:w-[400px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
+          transition={{ duration: 1, ease: 'easeIn' }} className="lg:w-[380px] w-[330px] md:[360px] rounded-lg     border-[1px] shadow-xl  border-[#fdfdf] flex flex-col ">
                       <img src={item.imageUrl} alt={item.imageAlt} className="rounded-t-lg " />
                       <div className="px-5  flex flex-col">
                         
-                              <p className="font-bold open-sanss pt-3 text-center">{item.title}</p>
-                          <p className="text-[13px] open-sans leading-loose text-[#56627b] py-3">{item.description}</p>
+                              <p className="font-bold poppins-medium  pt-3 text-center">{item.title}</p>
+                          <p className="text-[13px]  open-sans leading-loose text-[#56627b] py-3">{item.description}</p>
                           
                       </div>
                   </motion.div>

@@ -23,7 +23,7 @@ export default function Home() {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
               <p className="playfair-display text-3xl md:text-4xl lg:text-5xl font-bold">3GIS Edge</p>
               <div className="w-14 h-1 rounded-full bg-[#BCDBFF]" />
-              <p className="open-sans text-sm md:text-base lg:text-lg leading-relaxed lg:leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
+              <p className="open-sans text-center text-sm md:text-base lg:text-lg leading-relaxed lg:leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
                 With years of experience in business and Finance, we identify industry challenges and meet business needs through proactive delivery of solutions backed with Technology that enable growth and development for the organization.
               </p>
               <div className="pt-5 flex justify-center">
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
               <p className="playfair-display text-3xl md:text-4xl lg:text-5xl font-bold">3GIS Edge</p>
               <div className="w-14 h-1 rounded-full bg-[#BCDBFF]" />
-              <p className="open-sans text-sm md:text-base lg:text-lg leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
+              <p className="open-sans text-center text-sm md:text-base lg:text-lg leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
                 3GIS adopts a systematic project management approach to ensure the delivery of project benefits and objectives. This strategy involves aligning with established project management principles to guarantee success.
               </p>
               <div className="pt-5 flex justify-center">
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="absolute inset-0 flex flex-col items-center justify-center text-white text-center p-4">
               <p className="playfair-display text-3xl md:text-4xl lg:text-5xl font-bold">3GIS Edge</p>
               <div className="w-14 h-1 rounded-full bg-[#BCDBFF]" />
-              <p className="open-sans text-sm md:text-base lg:text-lg leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
+              <p className="open-sans text-center text-sm md:text-base lg:text-lg leading-loose text-gray-400 py-3 w-80 md:w-[550px] lg:w-[650px]">
                 3GIS offers a solution by integrating business process re-engineering and customized software development to enhance workforce efficiency and streamline operations through automation.
               </p>
               <div className="pt-5 flex justify-center">
@@ -85,15 +85,15 @@ export default function Home() {
         </div>
       </Suspense>
 
-      <section className="grid bg-gray-100 h-[80vh] md:h-[30vh] lg:h-[40vh] grid-rows-2 md:grid-cols-2 lg:grid-cols-2 items-center justify-center md:pt-24 lg:pt-20">
+      <section className="flex bg-gray-100 h-[45vh] md:h-[30vh] lg:h-[40vh] lg:flex-row gap-5 flex-col md:flex-row  items-center justify-center ">
         <header className="flex px-10 lg:px-32 flex-col gap-2">
           <h2 className="playfair-display text-3xl md:text-4xl lg:text-5xl font-bold">Testimonials</h2>
           <p className="open-sans text-sm">Hear what some of our customers have to say</p>
         </header>
 
         <blockquote className="flex px-10 lg:px-32 flex-col gap-2">
-          <p className="open-sans leading-loose">
-            <span className='noto-sans-kr text-3xl'>“</span>Our experience with 3GIS has been fantastic, they offer dynamic, practical and tailored-to-need services to meet clients' unique demands and peculiarities.<br /> We strongly recommend them for your IT and Web Management requirements.<span className='noto-sans-kr text-3xl'>”</span>
+          <p className="open-sans text-sm leading-loose">
+            <span className='noto-sans-kr text-3xl'>“</span>Our experience with 3GIS has been fantastic, they offer dynamic, practical and tailored-to-need services to meet clients' unique demands and peculiarities.<br /><span className="text-sm"> We strongly recommend them for your IT and Web Management requirements.</span><span className='noto-sans-kr text-3xl'>”</span>
           </p>
           <cite className="playfair-display text-sm font-bold">MD, Seaeagle Marine Services</cite>
         </blockquote>

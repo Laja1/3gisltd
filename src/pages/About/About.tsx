@@ -45,7 +45,7 @@ export default function About() {
             className="flex items-center justify-center w-[300px] h-[250px] bg-[#FFB5B530] rounded-md py-10 px-5"
           >
             <div>
-              <p className="font-bold playfair-display text-center pt-3">Who Are We?</p>
+              <p className="font-bold  poppins-medium text-center pt-3">Who Are We?</p>
               <p className="text-[13px] leading-loose open-sans text-[#56627b] py-3">
                 3G Integrated Systems is an information technology firm dedicated exclusively to delivering end-to-end computing, telecommunication and project management solutions.
               </p>
@@ -57,7 +57,7 @@ export default function About() {
             className="flex items-center justify-center w-[300px] h-[250px] bg-blue-100 rounded-md py-10 px-5"
           >
             <div>
-              <p className="font-bold playfair-display text-center pt-3">What Do We Do?</p>
+              <p className="font-bold  poppins-medium text-center pt-3">What Do We Do?</p>
               <p className="text-[13px] leading-loose open-sans text-[#56627b] py-3">
                 We at 3G Integrated Systems strive to understand the needs of the consumers, and provide the most effective computing solutions to meet those need.
               </p>

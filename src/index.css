@@ -23,6 +23,12 @@
        font-variation-settings:
          "wdth" 100;
      }
+
+         .poppins-medium {
+           font-family: "Poppins", sans-serif;
+           font-weight: 600;
+           font-style: normal;
+         }
             .open-sanss {
               font-family: "Open Sans", sans-serif;
               font-optical-sizing: auto;

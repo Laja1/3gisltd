@@ -54,7 +54,7 @@ export default function Projects() {
           className="items-center justify-center flex w-[300px] lg:w-[400px]  md:w-[330px] h-[335px] py-10 px-5"
         >
           <div>
-            <p className="font-bold open-sanss pt-3 text-center">{item.title}</p>
+            <p className="font-bold  poppins-medium pt-3 text-center">{item.title}</p>
             <div>
               <p className="text-[13px] leading-loose open-sans text-[#56627b] py-3">{item.description}</p>
             </div>

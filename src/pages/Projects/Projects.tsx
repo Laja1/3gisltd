@@ -34,7 +34,7 @@ export default function Projects() {
           >
             <div className="px-6 py-4 mb-2">
              <div className="flex-row flex items-center ">  <div className="w-10 h-1 rotate-90 bg-[#222] rounded-full" />
-              <h2 className="text-2xl open-sanss font-semibold text-black ">
+              <h2 className="text-2xl  poppins-medium font-semibold text-black ">
                 {company.title}
               </h2></div>
             </div>
